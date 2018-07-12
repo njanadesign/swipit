@@ -54,6 +54,49 @@ h1,h3{
 	letter-spacing:1px;
 }
 
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .images-div{
 	font-size: 0; 
 }
@@ -203,4 +246,6 @@ img:hover{
     border: 1px solid green;
     float: left; /* add this */
 }
- 
+
+
+
